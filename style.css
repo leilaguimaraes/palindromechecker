@@ -1,0 +1,10 @@
+:root{
+  --pink-darker: #ee9ca7;
+  --pink-lighter:#ffdde1;
+  --black: #0f0c29;
+  --beige: #fefefe;
+}
+body{
+  background-image: linear-gradient(#ee9ca7, #ffdde1);
+  height: 100vh;
+}
