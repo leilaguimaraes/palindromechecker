@@ -4,12 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Palíndromo</title>
 </head>
 <body>
-  <div>
+  <div id="cardbranco">
     <h1>Palíndromo checker</h1>
+    <p>Você sabe o que é um palíndromo?</p>
+    <p>Um palíndromo é uma palavra ou frase que é escrita da mesma maneira para frente e para trás, ignorando pontuação, maiúsculas e minúsculas e espaçamento.</p>
+    <label for="palavraidentificada">Digite a palavra a ser verificada:</label>
+    <input type="text" id="palavraidentificada" class="palavraidentificada" placeholder="Digite aqui a palavra a ser verificada">
+    <button type="submit" onclick="palindrome()">Conferir</button>
+    <p class="div__ resultado"> </p>
   </div>
+  <script src="./script.js"></script>
 </body>
 </html>
